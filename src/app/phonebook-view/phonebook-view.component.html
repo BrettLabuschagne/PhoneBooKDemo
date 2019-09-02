@@ -1,0 +1,17 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="First Name" value="{{contact.firstname}}" readonly>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Surname" value="{{contact.surname}}" readonly>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Number" value="{{contact.number}}" readonly>
+  </mat-form-field>
+</form>
+
+<div class="example-button-row">
+  <button mat-raised-button color="primary" (click)="backToContactsList()">Back</button>
+</div>
